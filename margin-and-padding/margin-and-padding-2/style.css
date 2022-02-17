@@ -3,25 +3,39 @@ body {
   font-family: sans-serif;
 }
 
+/*Margin creates border around inner elements*/
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px;
 }
 
+/*Auto margin-top leaves even gap at top of card*/
 .title {
   background: #e3f4ff;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
-
+/*Even margin-bottoms keep consitency*/
 .content {
   background: #e3f4ff;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
+/*text-align maybe not best solution. Padding instead?*/
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 5px;
 }
 
+/*Display-block outputs content on new line*/
 button {
+  display: block;
+  padding: 8px 16px;
+  margin: 0 auto;
   background: white;
   border: 1px solid #eee;
 }
