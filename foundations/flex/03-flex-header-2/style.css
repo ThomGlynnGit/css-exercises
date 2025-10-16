@@ -17,11 +17,14 @@ body {
 }
 
 .profile-image {
+  box-sizing: border-box;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex: 0 0 1;
+  margin-right: 10px;
 }
 
 .logo {
@@ -35,6 +38,12 @@ body {
 .header .head-left {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+}
+
+.header .head-right {
+  display: flex;
+  gap: 10px;
   align-items: center;
 }
 
