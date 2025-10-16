@@ -34,7 +34,15 @@ body {
 
 .header .head-left {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+.links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-left: 10px;
 }
 
 button {
