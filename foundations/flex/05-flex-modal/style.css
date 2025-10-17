@@ -23,6 +23,7 @@ body {
   padding: 10px;
   display: flex;
   align-items: baseline;
+  gap: 10px;
 }
 
 .icon {
@@ -36,6 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -57,7 +59,6 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-  flex: 0 0 none;
 }
 
 button.continue {
@@ -74,10 +75,11 @@ button.cancel {
 
 .header {
   font-weight: 700;
+  font-size: 25px;
 }
 
 .center-content {
   display: flex;
   flex-direction: column;
-  
+  gap: 15px
 }
