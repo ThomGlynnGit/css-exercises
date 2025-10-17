@@ -21,6 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 10px;
+  display: flex;
+  align-items: baseline;
 }
 
 .icon {
@@ -55,6 +57,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  flex: 0 0 none;
 }
 
 button.continue {
@@ -71,4 +74,10 @@ button.cancel {
 
 .header {
   font-weight: 700;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  
 }
