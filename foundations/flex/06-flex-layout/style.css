@@ -37,7 +37,7 @@ ul {
   list-style-type: none;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
 }
@@ -62,3 +62,6 @@ ul {
   flex-direction: column;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
