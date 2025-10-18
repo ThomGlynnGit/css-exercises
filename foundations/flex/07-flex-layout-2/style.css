@@ -22,6 +22,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex: 1 0 auto;
 }
 
 .card {
@@ -43,4 +44,21 @@ body {
   align-items: flex-end;
   flex-wrap: wrap;
   padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+li {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
