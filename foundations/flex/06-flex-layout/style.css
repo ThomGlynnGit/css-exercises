@@ -27,9 +27,27 @@ input {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #454d4c;
 }
 
 ul {
   list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 10px;
+}
+
+.left-links {
+  padding-left: 10px;
+}
+
+.right-links {
+  padding-right: 10px;
 }
