@@ -16,6 +16,9 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -37,11 +40,12 @@ body {
 
 .center-content {
   display: flex;
+  flex: 1;
 }
 
 .text-cards {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-wrap: wrap;
   padding: 20px;
 }
